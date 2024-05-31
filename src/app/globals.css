@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --Foreground-Colour: #d5d7dc;
+    --Background-Colour: #1b2020;
+    background-color: var(--Background-Colour);
+    color: var(--Foreground-Colour);
+    /* scrollbar-color: #b1b1b1 rgba(255, 255, 255, 0); */
+}
+
+body{
+    font-family: 'Onest Variable', sans-serif;
+}
