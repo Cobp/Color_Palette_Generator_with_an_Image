@@ -8,14 +8,82 @@
     box-sizing: border-box;
 }
 
-:root{
+:root {
     --Foreground-Colour: #d5d7dc;
     --Background-Colour: #1b2020;
     background-color: var(--Background-Colour);
     color: var(--Foreground-Colour);
-    /* scrollbar-color: #b1b1b1 rgba(255, 255, 255, 0); */
+    scrollbar-color: var(--Foreground-Colour) var(--Background-Colour);
+    scroll-behavior: smooth;
 }
 
-body{
+body {
     font-family: 'Onest Variable', sans-serif;
+    width: 100%;
+    height: 100vh;
+}
+
+.fondo {
+    mask: linear-gradient(0deg,
+            transparent,
+            white 100%,
+            white 0%,
+            transparent);
+}
+
+.fondo-slider {
+  mask: linear-gradient(0deg,
+  transparent,
+  white 20%,
+  white 80%,
+  transparent);
+    @media (min-width: 768px) {
+      mask: linear-gradient(0deg,
+            transparent,
+            white 40%,
+            white 60%,
+            transparent);
+    }
+}
+
+.item-1 { transform: rotate(0deg) translate(550px) rotate(0deg); }
+.item-2 { transform: rotate(45deg) translate(550px) rotate(-45deg); }
+.item-3 { transform: rotate(90deg) translate(550px) rotate(-90deg); }
+.item-4 { transform: rotate(135deg) translate(550px) rotate(-135deg); }
+.item-5 { transform: rotate(180deg) translate(550px) rotate(-180deg); }
+.item-6 { transform: rotate(225deg) translate(550px) rotate(-225deg); }
+.item-7 { transform: rotate(270deg) translate(550px) rotate(-270deg); }
+.item-8 { transform: rotate(315deg) translate(550px) rotate(-315deg); }
+
+@keyframes rotateSlider {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(45deg); }
+}
+
+.slider.animating {
+  animation: rotateSlider 1s ease-in-out;
+}
+
+@keyframes rotateSliderItems {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(-45deg); }
+}
+
+.item.animating {
+  animation: rotateSliderItems 1s ease-in-out;
+}
+
+#header-nav {
+    animation: adjust-header linear both;
+    animation-timeline: scroll();
+    animation-range: 0 200px;
+}
+
+@keyframes adjust-header {
+  to {
+    backdrop-filter: blur(8px);
+    background-color: rgba(27, 32, 32, 0.7);
+    padding-top: 0.75rem;
+      padding-bottom: 0.75rem;
+  }
 }

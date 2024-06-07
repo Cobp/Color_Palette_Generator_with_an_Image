@@ -27,8 +27,14 @@
       "@/Components": [
         "./src/components/*"
       ],
+      "@/Content": [
+        "./src/content/*"
+      ],
+      "@/Models": [
+        "./src/models/*"
+      ]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/app/Login/login.jsx"],
   "exclude": ["node_modules"]
 }

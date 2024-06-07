@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
-import Navbar from '@/Components/navbar.jsx';
 import '@fontsource-variable/onest';
+import Providers from './providers'
 import "./globals.css";
 
 
@@ -16,9 +16,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="es">
-      <body className="">
-        <Navbar />
-        {children}
+      <body>
+        <Providers>
+          {children}
+        </Providers>
       </body>
     </html>
   );

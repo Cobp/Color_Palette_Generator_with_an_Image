@@ -1,0 +1,74 @@
+[
+    {
+        "alt": "Designer",
+        "src": "designer.webp",
+        "color1": "#a7aab4",
+        "color2": "#6f706f",
+        "color3": "#8d5419",
+        "color4": "#573c33",
+        "color5": "#53281f"
+    },
+    {
+        "alt": "Sexy Woman",
+        "src": "sexy.webp",
+        "color1": "#aa9c86",
+        "color2": "#938063",
+        "color3": "#6e5734",
+        "color4": "#645541",
+        "color5": "#51433d"
+    },
+    {
+        "alt": "Studio",
+        "src": "studio.webp",
+        "color1": "#e8edf0",
+        "color2": "#5d787f",
+        "color3": "#597279",
+        "color4": "#36626d",
+        "color5": "#040903"
+    },
+    {
+        "alt": "Work Coffee",
+        "src": "work.webp",
+        "color1": "#d0cccc",
+        "color2": "#a4a3a1",
+        "color3": "#827c6b",
+        "color4": "#79635c",
+        "color5": "#2c2715"
+    },
+    {
+        "alt": "Woman eating",
+        "src": "chill.webp",
+        "color1": "#e5ddda",
+        "color2": "#3f291e",
+        "color3": "#0e1c1f",
+        "color4": "#1c1314",
+        "color5": "#060d13"
+    },
+    {
+        "alt": "Forest",
+        "src": "forest.webp",
+        "color1": "#c4ccb7",
+        "color2": "#afc3b1",
+        "color3": "#9ab9af",
+        "color4": "#80b5ae",
+        "color5": "#395135"
+    },
+    {
+        "alt": "Gamer",
+        "src": "game.webp",
+        "color1": "#c6c5ca",
+        "color2": "#91cbd7",
+        "color3": "#95689f",
+        "color4": "#5b6e7f",
+        "color5": "#23232d"
+    },
+    {
+        "alt": "Cooked",
+        "src": "cooked.webp",
+        "color1": "#e4c187",
+        "color2": "#b18638",
+        "color3": "#be6000",
+        "color4": "#880200",
+        "color5": "#7c0201"
+    }
+]
