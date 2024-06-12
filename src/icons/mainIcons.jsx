@@ -14,6 +14,18 @@ export const IconGoat = () => {
     </svg>
   );
 };
+export const IconFavorite = () => {
+  return(
+    <svg width="100%" height="100%" viewBox="0 0 796.000000 335.000000">
+    <g transform="translate(0.000000,335.000000) scale(0.100000,-0.100000)" fill="currentColor" stroke="none">
+    <path d="M470 1945 l0 -1315 -169 0 c-141 0 -172 -3 -185 -16 -14 -13 -16 -50 -16 -250 0 -143 4 -243 10 -255 10 -18 28 -19 664 -19 587 0 654 2 660 16 3 9 6 125 6 258 0 175 -3 245 -12 254 -8 8 -63 12 -180 12 l-168 0 0 1315 0 1315 -305 0 -305 0 0 -1315z"/>
+    <path d="M3005 3245 c-734 -72 -1181 -355 -1384 -880 -76 -195 -111 -405 -111 -665 0 -330 44 -563 149 -786 165 -349 468 -594 889 -719 277 -82 495 -105 987 -105 275 0 374 3 383 12 9 9 12 87 12 289 l0 277 -477 5 c-433 4 -487 6 -573 25 -227 48 -413 144 -528 270 -93 102 -167 251 -203 410 -29 127 -36 385 -15 517 84 507 455 785 1047 785 l139 0 0 -350 0 -350 305 0 305 0 0 621 c0 408 -4 627 -10 640 -10 18 -25 19 -398 18 -226 -1 -441 -7 -517 -14z"/>
+    <path d="M4062 3248 c-9 -9 -12 -243 -12 -990 l0 -978 610 0 610 0 -2 303 -3 302 -302 3 -303 2 0 395 0 395 123 0 c206 0 417 -41 563 -110 265 -123 422 -326 487 -630 29 -137 29 -416 0 -550 -82 -378 -314 -605 -707 -690 -140 -31 -284 -37 -698 -32 l-378 5 0 -285 c0 -207 3 -287 12 -296 15 -15 605 -17 794 -2 554 43 940 190 1216 464 186 185 317 449 369 746 43 242 35 592 -17 829 -65 291 -172 496 -351 673 -267 263 -594 393 -1113 443 -190 19 -880 21 -898 3z"/>
+    <path d="M6552 3248 c-9 -9 -12 -82 -12 -265 l0 -253 26 -10 c14 -6 95 -10 180 -10 l154 0 0 -1315 0 -1315 305 0 305 0 0 1315 0 1315 163 0 c131 0 167 3 185 16 22 15 22 18 22 263 0 179 -3 250 -12 259 -17 17 -1299 17 -1316 0z"/>
+    </g>
+  </svg>
+  )
+}
 export const IconHamburguer = () => {
   return (
     <svg
@@ -128,13 +140,7 @@ export const IconGithub = () => {
 export const IconChevron = () => {
   return (
     <svg width="100%" height="100%" viewBox="0 0 24 24" fill="none">
-      <path
-        d="M4 8.41693L10.5866 15.0037C10.9633 15.375 11.471 15.5831 12 15.5831C12.529 15.5831 13.0367 15.375 13.4134 15.0037L20 8.41693"
-        stroke="currentColor"
-        strokeWidth="1.5"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      />
+      <path fill="currentColor" fillRule="evenodd" d="M11.512 8.43a.75.75 0 0 1 .976 0l7 6a.75.75 0 1 1-.976 1.14L12 9.987l-6.512 5.581a.75.75 0 1 1-.976-1.138z" clipRule="evenodd"/>
     </svg>
   );
 };
@@ -209,5 +215,39 @@ export const IconGoogle = () => {
       <path fill="#1976D2" d="M43.611,20.083H42V20H24v8h11.303c-0.792,2.237-2.231,4.166-4.087,5.571
 	c0.001-0.001,0.002-0.001,0.003-0.002l6.19,5.238C36.971,39.205,44,34,44,24C44,22.659,43.862,21.35,43.611,20.083z"></path>
   </svg>
+  )
+}
+export const IconLinkUp = () => {
+  return(
+    <svg width="100%" height="100%" viewBox="0 0 24 24">
+      <path fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="m6 18l2.5-2.5M18 6H9m9 0v9m0-9l-6.5 6.5"/>
+      </svg>
+  )
+}
+export const IconExpand = () => {
+  return(
+    <svg width="100%" height="100%" viewBox="0 0 16 16">
+      <path fill="currentColor" fillRule="evenodd" d="M14.5 12.25a.75.75 0 0 0 1.5 0v-8.5a.75.75 0 0 0-1.5 0zM4.841 4.22a.75.75 0 0 1 0 1.06l-1.97 1.97h9.379a.75.75 0 0 1 0 1.5H2.871l1.97 1.97a.75.75 0 1 1-1.06 1.06L.53 8.53L0 8l.53-.53l3.25-3.25a.75.75 0 0 1 1.061 0" clipRule="evenodd"/>
+    </svg>
+  )
+}
+export const IconLogOut = () => {
+  return(
+    <svg width="100%" height="100%" viewBox="0 0 24 24">
+      <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="1.5">
+        <path stroke-linejoin="round" d="M10 12h10m0 0l-3-3m3 3l-3 3"/>
+        <path d="M4 12a8 8 0 0 1 8-8m0 16a7.985 7.985 0 0 1-6.245-3"/>
+      </g>
+    </svg>
+  )
+}
+export const IconLogIn = () => {
+  return(
+    <svg width="100%" height="100%" viewBox="0 0 24 24">
+      <g fill="none" stroke="currentColor" strokeLinecap="round" strokeWidth="1.5">
+        <path d="M20 12a8 8 0 0 0-8-8m0 16a7.985 7.985 0 0 0 6.245-3"/>
+        <path strokeLinejoin="round" d="M4 12h10m0 0l-3-3m3 3l-3 3"/>
+      </g>
+    </svg>
   )
 }

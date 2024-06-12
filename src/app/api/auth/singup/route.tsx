@@ -5,8 +5,8 @@ import bcrypt from "bcryptjs"
 
 
 export async function POST(request: Request) {
-    const { firstname, lastname, email, password } = await request.json()
-    console.log(firstname, lastname, email, password)
+    const { name, email, password, role } = await request.json()
+    console.log(name, email, password, role)
 
     if (!password || password.length < 6)
         return NextResponse.json({
@@ -30,17 +30,17 @@ export async function POST(request: Request) {
         const hashedPassword = await bcrypt.hash(password, 12);
 
         const user = new User({
-            firstname: firstname,
-            lastname: lastname,
+            name: name,
             email: email,
             password: hashedPassword,
+            role: role,
         });
 
         const savedUser = await user.save();
 
         return NextResponse.json({
             message: "User created successfully",
-            user: savedUser.firstname,
+            user: savedUser.name,
             email: savedUser.email,
             _id: savedUser._id
         });

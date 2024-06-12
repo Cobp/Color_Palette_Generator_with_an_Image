@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import '@fontsource-variable/onest';
-import Providers from './providers'
+import Providers from './providers';
 import "./globals.css";
 
 
@@ -15,8 +15,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="es">
-      <body>
+    <html lang="en">
+      <body className="">
         <Providers>
           {children}
         </Providers>

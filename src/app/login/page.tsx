@@ -40,6 +40,12 @@ function LoginPage() {
                     <button
                         type="button"
                         className="flex items-center justify-center font-semibold text-base w-full h-11 rounded-full border border-gray-300/75 bg-white hover:bg-neutral-200 px-6 transition focus:bg-neutral-200 active:bg-neutral-300 text-zinc-700 gap-2"
+                        onClick={async() => {
+                            await signIn('google', {
+                                callbackUrl: '/',
+                                redirect: false,
+                            });
+                        }}
                     >
                         <i className="size-8 p-1">
                             <IconGoogle />
@@ -49,6 +55,12 @@ function LoginPage() {
                     <button
                         type="button"
                         className="flex items-center justify-center font-semibold text-base w-full h-11 rounded-full bg-gray-900 px-6 transition hover:bg-gray-800 focus:bg-gray-700 active:bg-gray-600 gap-2"
+                        onClick={async() => {
+                            await signIn('github', {
+                                callbackUrl: '/',
+                                redirect: false,
+                            });
+                        }}
                     >
                         <i className="size-8 p-1">
                             <IconGithub />

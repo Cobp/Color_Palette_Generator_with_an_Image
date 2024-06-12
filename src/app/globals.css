@@ -84,6 +84,6 @@ body {
     backdrop-filter: blur(8px);
     background-color: rgba(27, 32, 32, 0.7);
     padding-top: 0.75rem;
-      padding-bottom: 0.75rem;
+    padding-bottom: 0.75rem;
   }
 }

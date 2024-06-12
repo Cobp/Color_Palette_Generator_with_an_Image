@@ -8,8 +8,8 @@ const Home = () => {
   return (
     <>
     <Navbar />
-    <main className="overflow-hidden">
-      <section id="Hero" className="relative w-full h-screen flex justify-center px-3 md:px-8">
+    <main className="h-screen">
+      <section id="Hero" className="relative w-full h-screen flex justify-center px-3 md:px-8 overflow-hidden ">
         <ColoredBars />
         <div className="flex flex-col md:flex-row items-center justify-between max-w-[85rem] w-full z-30">
           <article className="flex items-center md:items-start justify-center flex-col w-full h-full mt-16 sm:mt-0 gap-3 sm:gap-8">
